@@ -1,11 +1,9 @@
 {
   "presets": [
-    "env",
-    ["es2015", {"modules": false}],
-    "stage-2",
-    "react"
+    "@babel/react",
+    "@babel/env"
   ],
   "plugins": [
-    "react-hot-loader/babel"
+    "@babel/plugin-proposal-class-properties"
   ]
 }

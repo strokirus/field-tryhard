@@ -1,15 +1,20 @@
 import React from 'react';
+import { string } from 'prop-types';
 
-const Loading = () => (
+const Loading = ({ title }) => (
   <p
     className="title-loading"
   >
-    Loading...
+    {title}
   </p>
 );
 
-Loading.propTypes = { };
+Loading.propTypes = {
+  title: string,
+};
 
-Loading.defaultProps = { };
+Loading.defaultProps = {
+  title: 'Loading...',
+};
 
 export default Loading;

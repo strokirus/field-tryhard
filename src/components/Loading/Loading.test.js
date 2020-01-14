@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Loading from './Loading';
 
-const props = { };
+const props = { title: 'Field' };
 
 describe('(Component) Loading', () => {
   it('should render an Loading with result', () => {

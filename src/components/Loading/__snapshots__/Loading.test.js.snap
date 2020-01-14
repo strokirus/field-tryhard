@@ -4,6 +4,6 @@ exports[`(Component) Loading should render an Loading with result 1`] = `
 <p
   className="title-loading"
 >
-  Loading...
+  Field
 </p>
 `;
